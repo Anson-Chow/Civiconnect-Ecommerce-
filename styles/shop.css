@@ -1,4 +1,4 @@
-.container {
+/* .container {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +22,7 @@
     height: 100%;
     width: 100%;
     /* background-color: #fff; */
-    border-radius: 16px;
+    /* border-radius: 16px;
     border: 2px solid white;
     overflow: hidden;
     box-shadow: 0px 0px 4px rgb(2 18 28 / 35%);
@@ -77,4 +77,4 @@ button {
 
 .fa-solid, .fas {
     font-weight: 900;
-}
+}  */
