@@ -1,0 +1,82 @@
+.contact-container {
+    max-width: 900px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.contact-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    margin: 32px 0;
+    border: 1px solid #02121c;
+    border-radius: 16px;
+    box-shadow: 0px 0px 4px rgb(2 18 28 / 35%);
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 16px auto 64px auto;
+}
+
+.contact-card .twoCols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 16px auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.contact-card img {
+    width: 180px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.message-form input {
+    margin: 8px 0 16px 0;
+    padding: 12px;
+    border: 1px solid #02121c;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.message-form textarea {
+    margin: 8px 0 16px 0;
+    padding: 12px;
+    border: 1px solid #02121c;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: none;
+}
+
+label {
+    color: white;
+}
+
+.message-form button {
+    width: fit-content;
+    margin: 8px auto 16px auto;
+    padding: 12px;
+    border: 1px solid #02121c;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #02121c;
+    color: white;
+    cursor: pointer;
+}
+ 
