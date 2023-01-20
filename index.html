@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="all.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- <link rel="stylesheet" href="styles/homepage.css" /> -->
   </head>
   <body style="background: #171717">
@@ -23,16 +24,17 @@
     <section id="landing">
       <header>
         <div class="header__container">
-          <div class="header__description">
+          <div data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300" data-aos-easing="ease-in" class="header__description">
             <h1>
               Canada's <span class="turquoise">Most Famous</span> Computer Store
             </h1>
             <h2>Find your dream PC with Titania</h2>
-            <a href="shop.html">
+            <a href="#highlights">
               <button class="btn">Browse Products</button>
             </a>
           </div>
           <img
+            data-aos="fade-in" data-aos-duration="1500" data-aos-delay="1000" data-aos-easing="ease-in"
             src="images/Crystal-PC-Case-Concept-by-Alex-Casabo_Desktop-2.jpg"
             class="landing__image"
             alt=""
@@ -41,14 +43,14 @@
       </header>
     </section>
 
-    <section id="highlights">
+    <section id="highlights" >
       <div class="container">
         <div class="row">
-          <h2 class="section__title">
+          <h2 class="section__title" >
             Why choose <span class="turquoise">Titania?</span>
           </h2>
           <div class="highlight__wrapper">
-            <div class="highlight">
+            <div class="highlight" >
               <div class="highlight__img">
                 <img src="images/logo.png" alt="" />
               </div>
@@ -58,7 +60,7 @@
                 Voluptates!
               </p>
             </div>
-            <div class="highlight">
+            <div class="highlight" >
               <div class="highlight__img">
                 <img src="images/logo.png" alt="" />
               </div>
@@ -68,7 +70,7 @@
                 voluptatem.
               </p>
             </div>
-            <div class="highlight">
+            <div class="highlight" >
               <div class="highlight__img">
                 <img src="images/logo.png" alt="" />
               </div>
@@ -82,6 +84,27 @@
         </div>
       </div>
     </section>
+
+    <section id="features">
+      <div class="container">
+          <div class="row">
+              <h2 class="section__title">
+                  Featured <span class='turquoise'>PCs</span>
+              </h2>
+              <div class="products">
+                <a href="shop.html">
+                  <img src="images/1645584599-PCCG-ARC36T-thb-removebg-preview.png" alt="" >
+                  <img src="images/1670825890-PCCG-GLC48-thb-removebg-preview.png" alt="">
+                  <img src="images/1671174642-PCCG-BEAST49-thb-removebg-preview.png" alt="">
+                </a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 
   <section id="ImageHolder">
