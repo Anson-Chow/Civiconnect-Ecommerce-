@@ -186,6 +186,9 @@ header {
   line-height: 58px;
 }
 
+.secondImage {
+  filter: drop-shadow(0 0 0.75rem white);
+}
 /* 
 
 Contact 
